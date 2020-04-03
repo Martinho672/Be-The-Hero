@@ -58,7 +58,7 @@ export default function Incidents() {
                 keyExtractor={incident => String(incident.id)}
                 onEndReached={loadIncidents}
                 onEndReachedThreshold={0.5}
-               // showsVerticalScrollIndicator={false}
+                showsVerticalScrollIndicator={false}
 
                 renderItem={({ item: incident }) => (
                     <View style={styles.incident}>
